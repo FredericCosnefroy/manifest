@@ -2,7 +2,6 @@
 <manifest>
     <remote name="main" fetch="https://github.com/FredericCosnefroy"/>
     <remote name="parrot-developers" fetch="https://github.com/Parrot-Developers"/>
-    <remote name="sfml" fetch="https://github.com/SFML"/>
 
     <default revision="master" remote="main" sync-j="4"/>
 
