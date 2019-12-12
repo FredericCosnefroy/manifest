@@ -3,7 +3,7 @@
     <remote name="main" fetch="https://github.com/FredericCosnefroy"/>
     <remote name="parrot-developers" fetch="https://github.com/Parrot-Developers"/>
 
-    <default revision="master" remote="main" sync-j="4"/>
+    <default remote="main" revision="master" sync-j="4"/>
 
     <!-- build system -->
     <project name="alchemy.git" remote="parrot-developers" path="alchemy" />
