@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="main" fetch="https://github.com/FredericCosnefroy"/>
+    <remote name="parrot-developers" fetch="https://github.com/Parrot-Developers"/>
+    <remote name="sfml" fetch="https://github.com/SFML"/>
+
+    <default revision="master" remote="main" sync-j="4"/>
+
+    <!-- build system -->
+    <project name="alchemy.git" remote="parrot-developers" path="alchemy" />
+
+    <!-- project configuration -->
+    <project name="config.git" remote="main" path="config" />
+
+    <!-- project packages -->
+    <project name="physics.git" remote="main" path="packages/physics" />
+
+</manifest>
